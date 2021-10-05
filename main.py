@@ -5,3 +5,10 @@
 
 from exercise_16 import password_generator
 password_generator()
+
+def main():
+  print('Hello world!')
+  
+  
+  if __name__== '__main__':
+    main()
