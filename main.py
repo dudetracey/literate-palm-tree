@@ -1,7 +1,6 @@
-# Is it possible to combine all my practice exercises into one repo on Github? This would be proof that I have completed all the exercises.
-# Maybe there is a way to make a menu to choose which exercise I want to show.
-# The menu is probably best written as a function. Maybe I create all the different activities as functions and then I make a function that asks for which function.
-# Yes, that means a function of functions.
+# This page could just import the exercises and then present the menu of possible choices.
+# After selecting an exercise, import that file and run it. 
+# I would need to add a description to either the main file of what the exercise is or at the top of the file for the exercise itself.
 
 from exercise_16 import password_generator
 password_generator()
