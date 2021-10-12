@@ -10,9 +10,11 @@ else:
     print('Your number is odd')
 
 #Version 2: Divisibility test
-num = int(input('Give me a number you want to check: '))
-check = int(input('Give me the number you want to try to divide by: '))
-if num % check == 0:
-    print('Yes, your number is divisible.')
-else:
-    print('No, your number is not divisible')
+def divisibility_test():
+    num = int(input('Give me a number you want to check: '))
+    check = int(input('Give me the number you want to try to divide by: '))
+    if num % check == 0:
+        print('Yes, your number is divisible.')
+    else:
+        print('No, your number is not divisible')
+    return
