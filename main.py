@@ -11,3 +11,4 @@ def main():
   
   if __name__== '__main__':
     main()
+# It is now time to test out a way to use this or to start reading the code from other people to see how this is going
